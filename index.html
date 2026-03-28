@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Website Saya</title>
+
+  <style>
+    /* STEP 2 & 5: CSS (desain) */
+    body {
+      background: linear-gradient(to right, #4facfe, #00f2fe);
+      text-align: center;
+      font-family: Arial;
+      color: white;
+    }
+
+    .card {
+      background: rgba(0,0,0,0.3);
+      padding: 20px;
+      border-radius: 15px;
+      width: 80%;
+      margin: auto;
+      margin-top: 50px;
+      animation: fadeIn 1s ease;
+    }
+
+    /* STEP 3: gambar */
+    img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid white;
+      transition: 0.3s;
+    }
+
+    img:hover {
+      transform: scale(1.1);
+    }
+
+    /* STEP 4: tombol */
+    a {
+      display: block;
+      margin: 10px;
+      padding: 12px;
+      background: white;
+      color: black;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    a:hover {
+      background: black;
+      color: white;
+      transform: scale(1.05);
+    }
+
+    /* STEP 5: animasi */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+
+</head>
+<body>
+
+  <!-- STEP 1: struktur -->
+  <div class="card">
+
+    <!-- STEP 3: foto -->
+    <img src="https://i.imgur.com/H9IkdmK.jpeg">
+
+    <!-- STEP 1: teks -->
+    <h2>MBG</h2>
+    <p>My Beutiful Girl🚀</p>
+
+    <!-- STEP 4: tombol -->
+    <a href="https://www.instagram.com/auliaa_iaa_?igsh=eXU1ZTJtZnBnZXpv" target="_blank">Instagram</a>
+    <a href="https://wa.me/62nomorkamu" target="_blank">WhatsApp</a>
+
+  </div>
+
+</body>
+</html>
